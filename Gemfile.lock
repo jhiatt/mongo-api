@@ -85,13 +85,17 @@ GEM
     mongoid (7.0.6)
       activemodel (>= 5.1, < 6.1)
       mongo (>= 2.7.0, < 3.0.0)
+    msgpack (1.3.3)
     msgpack (1.3.3-x64-mingw32)
     nio4r (2.5.2)
+    nokogiri (1.10.9)
+      mini_portile2 (~> 2.4.0)
     nokogiri (1.10.9-x64-mingw32)
       mini_portile2 (~> 2.4.0)
     puma (3.12.4)
     rack (2.2.2)
-    rack-cors (0.4.1)
+    rack-cors (1.0.5)
+      rack (>= 1.6.0)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
     rails (6.0.2.2)
@@ -140,6 +144,7 @@ GEM
     zeitwerk (2.3.0)
 
 PLATFORMS
+  ruby
   x64-mingw32
 
 DEPENDENCIES
@@ -147,7 +152,7 @@ DEPENDENCIES
   byebug
   mongoid (~> 7.0.5)
   puma (~> 3.11)
-  rack-cors (~> 0.4.0)
+  rack-cors (~> 1.0.5)
   rails (~> 6.0.0)
   tzinfo-data
 
