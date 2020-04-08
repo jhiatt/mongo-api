@@ -91,6 +91,7 @@ GEM
       mini_portile2 (~> 2.4.0)
     puma (3.12.4)
     rack (2.2.2)
+    rack-cors (0.4.1)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
     rails (6.0.2.2)
@@ -146,6 +147,7 @@ DEPENDENCIES
   byebug
   mongoid (~> 7.0.5)
   puma (~> 3.11)
+  rack-cors (~> 0.4.0)
   rails (~> 6.0.0)
   tzinfo-data
 
